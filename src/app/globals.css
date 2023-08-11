@@ -34,15 +34,3 @@ body {
   font-weight: 100;
 
 }
-#btlink
-{
-    border: none;
-    outline: none;
-    transition: ease-out .3s;
-    cursor: pointer;
-    font-size: 1.5rem;
-    color: var(--nice-color);
-    z-index: 1;
-    background-color: var(--nav-dark);
-    font-weight: 400;
-}
