@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang='en'>
       {/* UI UX */}
       <head>
-        <link rel='icon' href='/favicon.ico' sizes='any' />
+        <link rel='icon' href='/main.ico' sizes='any' />
       </head>
       
       <body>{children}</body>

@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   title: "Página Inicial",
 }
 
-export default function Page(){
+export default function MainPage(){
   return(
     <main>
       <nav id="navbar">
