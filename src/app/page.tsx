@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 
 export default function MainPage(){
   return(
-    <main>
+    <>
       <nav id="navbar">
         <header className="w-screen px-4 py-5 flex items-center">
           <div className="flex align-text-top">
@@ -40,6 +40,6 @@ export default function MainPage(){
             </h1>
           </div>
       </nav>
-    </main>
+    </>
   )
 }

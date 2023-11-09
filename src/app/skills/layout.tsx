@@ -15,7 +15,11 @@ export default function RootLayout({
     <html lang="en">
       {/* UI UX */}
       <head>
-        <link rel='icon' href='/skills.ico' sizes='any' />
+        <link 
+          rel='icon' 
+          href='/icon.ico' 
+          sizes='any' 
+        />
       </head>
 
       <body>{children}</body>
