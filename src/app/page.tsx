@@ -29,7 +29,7 @@ export default function MainPage(){
                 </div>
         </header>
           <div className="flex items-center justify-center h-screen">
-            <h1 className="font-sans">Hi! I'm João Franco, welcome to my first website <br />
+            <h1 className="font-sans">Hi! I'm João Ignacio Castro Franco, welcome to my first website <br />
               This website was made with Next.js and TailwindCSS, to show about me and my projects and skills. <br />
               I'm current a Dev. student at Senac Joinville, and I'm looking for a job as a Back-end Developer. <br />
               Let me show you my skills and projects! <br />
