@@ -3,17 +3,13 @@ import Link from "next/link";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-    title: "My Projects",
+    title: "Projetos",
 }
 
-export default function Page(){
+export default function ProjectsPage(){
     return(
-        <>
-            <header id="headerProject">
-                <nav id="navproject">
-                    
-                </nav>
-            </header>
-        </>
+        <nav>
+
+        </nav>
     )
 }

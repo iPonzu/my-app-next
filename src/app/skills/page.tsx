@@ -1,18 +1,20 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-    title: "My Skills",
+    title: "Skills",
 }
 
 export default function SkillsPage(){
     return(
-        <>
-            <nav id="navbar2">    
-                <header className="w-screen px-6 py-4">
-                    <h3 className="font-sans absolute">Welcome to my skills, let me show you a little bit about myself</h3>
-                </header>
+            <nav>    
+                <div className="flex justify-center mt-16 ">
+                    <h3 className="font-sans absolute">Bem vindo a aba de skills</h3>
+                </div>
+                <aside>
+                    
+                </aside>
             </nav>
-        </>
     )
 }
