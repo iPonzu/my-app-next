@@ -12,9 +12,7 @@ export default function SkillsPage(){
                 <div className="flex justify-center mt-16 ">
                     <h3 className="font-sans absolute">Bem vindo a aba de skills</h3>
                 </div>
-                <aside>
-                    
-                </aside>
+                <div></div>
             </nav>
     )
 }

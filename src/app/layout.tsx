@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
-import './global.css'; 
 import Image from 'next/image';
 
+import './globals.css'
 
 export const metadata: Metadata = {
   title: 'MainScreen',

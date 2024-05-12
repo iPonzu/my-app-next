@@ -21,7 +21,7 @@ export default function MainPage(){
                   </div>
               </div>
                 <div className="flex align-text-top">
-                  <div className="font-sans absolute inset-y-4 h-8 w-25 left-3/4 border-2 rounded-md hover:transition-all hover:bg-green-900">
+                  <div className="font-sans absolute inset-y-4 h-8 w-25 right-72 border-2 rounded-md hover:transition-all hover:bg-green-900">
                       <Link className="font-semibold" href="/projects">Projetos</Link>
                   </div>
                 </div>
@@ -29,10 +29,10 @@ export default function MainPage(){
           <div className="flex items-center justify-center h-screen">
             <h1 className="font-sans w-96">Olá, me chamo João Ignacio Castro Franco, estou na última fase do curso de Análise e Desenvolvimento de Sistemas. 
             Procuro uma oportunidade na área de desenvolvimento, para mostrar meu aprendizado até o momento, fique a vontade neste site e me conheça um pouco mais!
-            Este site foi desenvolvido em NextJS no front-end. <br />
+            Este site foi desenvolvido em NextJS no front-end.
               <div className="font-sans flex items-center justify-center p-1 space-x-5">
-                <Link className="border-2 rounded-md hover:transition-all hover:bg-red-950" href="/skills">Clique aqui para minhas habilidades</Link> 
-                <Link className="border-2 rounded-md hover:transition-all hover:bg-green-900" href="/projects">Ou se preferir ver meus projetos pessoais, clique aqui</Link>
+                <Link className="border-2 rounded-md hover:transition-all hover:bg-red-950" href="/skills">Clique aqui para minhas skills</Link> 
+                <Link className="border-2 rounded-md hover:transition-all hover:bg-green-900" href="/projects">Ou aqui para meus projetos pessoais</Link>
               </div>
             </h1>
           </div>
