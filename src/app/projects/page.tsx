@@ -9,11 +9,14 @@ export const metadata: Metadata = {
 export default function ProjectsPage(){
     return(
         <nav>
-            <header
-                className="absolute font-sans rounded-md bg-red-500"
-            />
+            <Link
+                className="relative px-4 mt-8 w-48 border rounded-full hover:bg-gray-500 hover:text-white hover:transition-shadow hover:shadow-lg"
+                href='/'
+                >
+                    Voltar
+                </Link>
                 <div className="flex justify-center mt-16">
-                    <h3 className="font-sans absolute">Conheça um pouco mais sobre meus projetos pessoais</h3>
+                    <span className="absolute">Conheça um pouco mais sobre meus projetos pessoais</span>
                 </div>
         </nav>
     )
