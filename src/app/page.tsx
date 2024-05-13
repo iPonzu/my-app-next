@@ -17,10 +17,10 @@ export default function MainPage(){
                   target="_blank"
                   >
                     <Image
-                      src="/images/iconLinkedin.png"
+                      src="/images/LinkedinLogo.png"
                       alt="LinkedinLogo"
-                      width={30}
-                      height={30}
+                      width={40}
+                      height={40}
                       />
                 </a>              
           </div>
@@ -45,7 +45,7 @@ export default function MainPage(){
                   </div>
                 </div> */}
         </header>
-          <div className="flex items-center justify-center h-[40rem]">
+          <div className="flex items-center justify-center h-[38rem]">
             <h1 className="font-sans w-96">Olá, me chamo João Ignacio Castro Franco, estou na última fase do curso de Análise e Desenvolvimento de Sistemas. 
             Procuro uma oportunidade na área de desenvolvimento, para mostrar meu aprendizado até o momento, fique a vontade neste site!
             Esta página foi desenvolvido em NextJS no front-end.
