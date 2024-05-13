@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import _quadro from "../../../public/components/_quadroProjects";
 
 export const metadata: Metadata = {
     title: "Projetos",
@@ -17,6 +17,9 @@ export default function ProjectsPage(){
                 </Link>
                 <div className="flex justify-center mt-16">
                     <span className="absolute">Conheça um pouco mais sobre meus projetos pessoais</span>
+                </div>
+                <div className="">
+                    <_quadro />
                 </div>
         </nav>
     )
