@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -11,14 +12,19 @@ export default function MainPage(){
         <header className="px-4 py-5 flex items-center">
           <div className="flex align-text-top">
                 <a 
-                  className="font-sans font-semibold absolute inset-y-4 right-48 h-8 w-19 border-2 rounded-md hover:transition-all hover:bg-cyan-950 "  
+                  className="font-sans font-semibold absolute inset-y-4 right-48 h-8 w-19"  
                   href="https://www.linkedin.com/in/joao-ignacio-castro-franco-634873232/" 
                   target="_blank"
                   >
-                    LinkedIn
+                    <Image
+                      src="/images/iconLinkedin.png"
+                      alt="LinkedinLogo"
+                      width={30}
+                      height={30}
+                      />
                 </a>              
           </div>
-              <div className="flex align-text-top">
+              {/* <div className="flex align-text-top">
                 <div className="font-sans absolute right-32 inset-y-4 h-8 w-19 border-2 rounded-md hover:transition-all hover:bg-red-950">
                       <Link 
                         className="font-semibold" 
@@ -37,7 +43,7 @@ export default function MainPage(){
                           Projetos
                       </Link>
                   </div>
-                </div>
+                </div> */}
         </header>
           <div className="flex items-center justify-center h-[40rem]">
             <h1 className="font-sans w-96">Olá, me chamo João Ignacio Castro Franco, estou na última fase do curso de Análise e Desenvolvimento de Sistemas. 
