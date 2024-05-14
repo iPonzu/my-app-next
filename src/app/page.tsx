@@ -17,33 +17,25 @@ export default function MainPage(){
                   target="_blank"
                   >
                     <Image
-                      src="/images/LinkedinLogo.png"
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
                       alt="LinkedinLogo"
                       width={40}
                       height={40}
                       />
-                </a>              
+                </a> 
+                <a 
+                  className="font-sans font-semibold absolute inset-y-4 right-24 h-10 w-19 bg-white" 
+                  href="https://github.com/iPonzu"
+                  target="_blank"
+                  >
+                    <Image
+                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg"
+                      alt="GithubLogo"
+                      width={40}
+                      height={40}
+                      />
+                </a>             
           </div>
-              {/* <div className="flex align-text-top">
-                <div className="font-sans absolute right-32 inset-y-4 h-8 w-19 border-2 rounded-md hover:transition-all hover:bg-red-950">
-                      <Link 
-                        className="font-semibold" 
-                        href="/skills"
-                        >
-                            Skills
-                        </Link>
-                  </div>
-              </div>
-                <div className="flex align-text-top">
-                  <div className="font-sans absolute inset-y-4 h-8 w-25 right-72 border-2 rounded-md hover:transition-all hover:bg-green-950">
-                      <Link 
-                        className="font-semibold"   
-                        href="/projects"  
-                        > 
-                          Projetos
-                      </Link>
-                  </div>
-                </div> */}
         </header>
           <div className="flex items-center justify-center h-[38rem]">
             <h1 className="font-sans w-96">Olá, me chamo João Ignacio Castro Franco, estou na última fase do curso de Análise e Desenvolvimento de Sistemas. 
