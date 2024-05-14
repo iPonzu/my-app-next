@@ -1,4 +1,3 @@
-import React from "react";
 import Image from "next/image";
 
 interface _quadroProjectNextAppProps {}
@@ -14,8 +13,8 @@ const _quadroProjectNextApp: React.FC<_quadroProjectNextAppProps> = () => {
             <Image
                 src="/images/nextappPrint.png"
                 alt="RepositoryImageNextApp"
-                width={500}
-                height={100}
+                width={400}
+                height={50}
             />
             </a>
         </div>

@@ -1,4 +1,3 @@
-import React from 'react';
 import Image from 'next/image'
 
 
@@ -15,8 +14,8 @@ const _quadroWarehouse: React.FC<_quadroWarehouseProps> = () => {
         <Image
           src='/images/warehousePrint.png'
           alt='RepositoryImageWarehouse'
-          width={500}
-          height={50}
+          width={400}
+          height={20}
         />
       </a>
     </div>

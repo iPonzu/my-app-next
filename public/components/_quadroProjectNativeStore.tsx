@@ -14,8 +14,8 @@ const _quadroNativeStore: React.FC<_quadroNativeStoreProps> = () => {
           <Image
             src="/images/nativePrint.png"
             alt="RepositoryImageNativeStore"
-            width={500}
-            height={100}
+            width={900}
+            height={50}
           />
       </a>
     </div>

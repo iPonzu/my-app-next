@@ -23,25 +23,24 @@ export default function ProjectsPage(){
                         Conheça um pouco mais sobre meus projetos pessoais. Acesse meu Github para ver mais repositórios.
                     </span>
                 </div>
-                <div className="flex p-[45px] items-start">
+                <div className="flex p-[45px] w-[50rem] items-start">
                     <_quadroProjectWarehouse />
-                <h3 className="text-sm font-sans p-1 w-80">
+                <h3 className="text-sm font-sans p-2 w-80">
                     O Warehouse-Maganement é um projeto de gerenciamento de estoque desenvolvido em C# com .NET WinForms, onde é possível adicionar, remover e editar produtos.
                     Utilizando arquitetura Model-View-Controller (MVC), mySQL para banco de dados e Entity Framework para mapeamento objeto-relacional.
                 </h3>
             </div>
-            <div className="flex p-[50px] ml-[55rem] items-start">
-                <h3 className="text-sm font-sans p-1 w-9/12">
+            <div className="flex p-[5px] ml-[55rem] items-start">
+                <_quadroProjectNativeStore />
+                <h3 className="relative text-sm font-sans p-1 w-9/12">
                     O NativeStore é um projeto de e-commerce desenvolvido em React-Native, onde apresentam produtos de uma loja de pizzas.
                     Utilizando o expo como ferramenta auxiliar no desenvolvimento, Firebase para autenticação via email e senha com recuperação de senha via email.
                 </h3>
-                <_quadroProjectNativeStore />
             </div>
-            <div className="flex p-[45px] items-start">
+            <div className="flex p-[45px] w-[50rem] items-start">
                 <_quadroProjectNextApp />
-                <h3 className="text-sm font-sans p-1 w-80">
-                    O NextApp é um projeto de aplicativo de listagem de tarefas desenvolvido em NextJS, onde é possível adicionar, remover e editar tarefas.
-                    Utilizando o LocalStorage para armazenamento de dados e TailwindCSS para estilização.
+                <h3 className="text-sm mb-5 font-sans p-1 w-80">
+                    O NextApp é um projeto utilizado como portifólio, desenvolvido em NextJS com TailwindCSS, onde apresento meus projetos e minhas habilidades
                 </h3>
             </div>
             <_footer />
