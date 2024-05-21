@@ -21,11 +21,11 @@ export default function SkillsPage(){
                 </span>
             </div> 
             <div className="flex items-center justify-center p-3 space-x-3 h-[25rem]">
-                    <h3 className="font-sans text-base w-64">
+                    <h3 className="font-sans text-base w-64 border rounded shadow">
                         Possuo experiências acadêmicas com versionamento de código, desenvolvimento de aplicações para desktop, e frameworks do NodeJS
                         como React, React-Native e front-end com NextJS.
                     </h3>
-            <div className="px-4 py-2 border rounded shadow">
+            <div className="px-4 py-2">
                 <Image 
                     src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
                     alt="CsLogo"
@@ -33,8 +33,8 @@ export default function SkillsPage(){
                     height={100}
                 />
             </div>
-                <code>C#</code>
-                <div className="px-5 py-2 border rounded shadow">
+                <code className="font-bold">C#</code>
+                <div className="px-5 py-2">
                     <Image
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg"
                         alt="GitLogo"
@@ -42,8 +42,8 @@ export default function SkillsPage(){
                         height={100}
                     />
                 </div>
-                    <code>Git</code>
-                <div className="px-5 py-2 border rounded shadow">
+                    <code className="font-bold">Git</code>
+                <div className="px-5 py-2">
                     <Image
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
                         alt="ReactLogo"
@@ -51,8 +51,8 @@ export default function SkillsPage(){
                         height={100}
                     />
                 </div>
-                    <code>React</code>
-                <div className="px-5 py-2 border rounded shadow">
+                    <code className="font-bold">React</code>
+                <div className="px-5 py-2">
                     <Image
                         src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
                         alt="NodeLogo"
@@ -60,10 +60,10 @@ export default function SkillsPage(){
                         height={100}
                     />
                 </div>
-                    <code>NodeJS</code>
+                    <code className="font-bold">NodeJS</code>
                 </div>
             <div className="flex items-center justify-center">
-                <p className="font-sans text-base w-96">
+                <p className="font-sans text-base w-96 border rounded shadow ">
                     Também tenho conhecimentos em cybersecurity, arquitetura MVC e inglês avançado.
                     Unindo tudo com softskills como trabalho em equipe, comunicação, resolução de problemas e proatividade.
                     Acesse meu LinkedIn na página inicial ou <a className="font-semibold underline" href="https://www.linkedin.com/in/joao-ignacio-castro-franco-634873232/" target="_blank"

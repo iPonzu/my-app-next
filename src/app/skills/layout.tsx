@@ -5,7 +5,7 @@ import Image from 'next/image'
 export const metadata: Metadata = {
   title: 'SkillsScreen',
   description: 'showing softskills and programming languages',
-}
+} 
 
 export default function RootLayout({
   children,
