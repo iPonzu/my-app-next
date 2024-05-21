@@ -1,6 +1,7 @@
 import { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
+import _linkedinLogo from "../../public/components/_linkedinLogo";
+import _githubLogo from "../../public/components/_githubLogo";
 
 export const metadata: Metadata = {
   title: "Página Inicial",
@@ -16,13 +17,15 @@ export default function MainPage(){
                   href="https://www.linkedin.com/in/joao-ignacio-castro-franco-634873232/" 
                   target="_blank"
                   >
-                    <Image
-                      src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"
-                      alt="LinkedinLogo"
-                      width={60}
-                      height={60}
-                      />
-                </a>              
+                    <_linkedinLogo />
+                </a> 
+                <a 
+                  className="font-sans font-semibold absolute inset-y-4 right-24 h-10 w-19 bg-white border rounded-full" 
+                  href="https://github.com/iPonzu"
+                  target="_blank"
+                  >
+                    <_githubLogo />
+                </a>             
           </div>
         </header>
           <div className="flex items-center justify-center h-[38rem]">
